@@ -1,0 +1,112 @@
+Pseudocódigos:
+
+1. Imprimir um número em tela
+2. Somar dois números
+3. Contar de 1 até 10 usando loop
+4. Verificar se o número é par ou ímpar
+5. Verificar se número é positivo, negativo ou zero
+6. Calcular média de 3 notas
+7. Verificar se aluno foi aprovado (com média ≥ 5)
+8. Maior entre dois números
+9. Mostrar os múltiplos de 3 até 30
+10. Contagem regressiva de 10 até 1
+------------------------------------------------------------------------------------------------------------
+
+1. 
+
+Início
+	Escreva ("Digite um número:")
+	Leia num
+	Escreva ("Você digitou o número:", num)
+Fim
+---------------------------------------------------------------------------
+2.
+
+Início
+	Escreva ("Digite dois números:")
+	Leia num1
+	Leia num2
+	soma <- num1 + num2
+	Escreva ("A soma dos dois números é:", soma)
+Fim
+---------------------------------------------------------------------------
+3.
+
+Início 
+	i <- 1
+	Enquanto i <= 10
+		Escreva (i)
+		i <- i + 1
+Fim
+--------------------------------------------------------------------------
+4. 
+
+Início
+	Escreva ("Digite um número:")
+	Leia num
+	Se num % 2 = 0 então
+		Escreva ("Par")
+	Senão
+		Escreva ("Ímpar")
+Fim
+--------------------------------------------------------------------------
+5. 
+
+Início 
+	Escreva ("Digite um número:")
+	Leia num
+	Se num > 0 então
+		Escreva ("Positivo")
+	Senão Se num < 0 então
+		Escreva ("Negativo")
+	Senão
+		Escreva ("Zero")
+Fim
+--------------------------------------------------------------------------
+6.
+
+Início
+	Leia n1, n2, n3
+	media <- (n1 + n2 + n3) / 3
+	Escreva ("A média é:", media)
+Fim
+--------------------------------------------------------------------------
+7. 
+
+Início
+	Leia n1, n2
+	media <- (n1 + n2) / 3
+	Se media >= 5 então
+		Escreva ("Aprovado")
+	Senão 
+		Escreva ("Reprovado")
+Fim
+---------------------------------------------------------------------------
+8.
+
+Início
+	Leia n1, n2
+	Se n1 > n2 então
+		Escreva ("Maior: ", n1)
+	Senão 
+		Escreva ("Maior: ", n2)
+Fim
+--------------------------------------------------------------------------
+9.
+
+Início
+	i <- 1
+	Enquanto i <= 30
+	Se i % 3 = 0
+		Escreva(i)
+	i <- i + 1
+Fim
+--------------------------------------------------------------------------
+10.
+
+Início 
+	i <- 10
+	Enquanto i >= 1
+		Escreva(i)
+		i <- i - 1
+Fim
